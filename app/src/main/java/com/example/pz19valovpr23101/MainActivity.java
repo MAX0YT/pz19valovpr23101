@@ -60,7 +60,7 @@ public class MainActivity extends AppCompatActivity {
         @Override
         public void onTimeSet(TimePicker view, int hourOfDay, int minute) {
             dateAndTime.set(Calendar.HOUR_OF_DAY, hourOfDay);
-            dateAndTime.set(Calendar.DAY_OF_MONTH, minute);
+            dateAndTime.set(Calendar.MINUTE, minute);
             setInitialDateTime();
         }
     };
