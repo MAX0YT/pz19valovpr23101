@@ -40,4 +40,15 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btn_dialog"
+        android:layout_width="208dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="33dp"
+        android:onClick="onClick"
+        android:text="Dialog"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/show_date_2" />
 </androidx.constraintlayout.widget.ConstraintLayout>
